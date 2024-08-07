@@ -5,9 +5,9 @@ import Repositorio from "../pages/Repositorio"
 const Rutas = () => {
   return (
     <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/respositorio" element={ <Repositorio />} />
-        <Route path="" element={ <Navigate to="/home" />} />
+        <Route path="/micv/home" element={<Home />} />
+        <Route path="/micv/respositorio" element={ <Repositorio />} />
+        <Route path="micv" element={ <Navigate to="/micv/home" />} />
     </Routes>
   )
 }

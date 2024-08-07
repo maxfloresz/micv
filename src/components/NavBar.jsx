@@ -12,9 +12,9 @@ const NavBar = () => {
     <nav className="navbar">
         <div className="logo">MAX FLORES</div>
         <div className={`items ${isOpen ? 'open' : ''}`}>
-            <NavLink to="/home">Home</NavLink>
-            <NavLink to="/repositorio">Repositorio</NavLink>
-            <NavLink to="/contacto">Contacto</NavLink>
+            <NavLink to="/micv/home">Home</NavLink>
+            <NavLink to="/micv/repositorio">Repositorio</NavLink>
+            <NavLink to="/micv/contacto">Contacto</NavLink>
         </div>
         <div className={`icono ${isOpen ? 'open' : ''}`} onClick={handleOpen}>
             <span></span>
